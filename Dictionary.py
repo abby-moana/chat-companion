@@ -16,7 +16,7 @@ while True:
         number = input("Phone Number: ")
         email = input("Email: ")
         time = input("Time of visit: ")
-        temperature = input("Temperature: ")
+        temperature = input("Temperature (°C): ")
         print("Saved!")
 
         personal_data[fullname] = {}
