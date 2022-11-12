@@ -14,6 +14,8 @@ while True:
         gender = input("Gender: ").title()
         address = input("Address: ").title()
         number = input("Phone Number: ")
+        email = input("Email: ")
+        time = input("Time of visit: ")
         print("Saved!")
 
         personal_data[fullname] = {}
@@ -22,7 +24,13 @@ while True:
         personal_data[fullname]["Gender"] = gender
         personal_data[fullname]["Address"] = address
         personal_data[fullname]["Phone Number"] = number
+        personal_data[fullname]["Email"] = email
+        personal_data[fullname]["Time"] = time
+
     elif option == 2:
-        search = personal_data.get(input("Full name: ").title())
-        print(search)
+        search = input("Full name: ").title()
+        for key, value in personal_data[search].items():
+            print(key, ":", value)
+    elif option == 3:
+        Exit = input("Exit? (y/n): ")
 
