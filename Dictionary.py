@@ -33,4 +33,8 @@ while True:
             print(key, ":", value)
     elif option == 3:
         Exit = input("Exit? (y/n): ")
-
+        if Exit == "n":
+            continue
+        else:
+            print("\nThank ")
+            break
