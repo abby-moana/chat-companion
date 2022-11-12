@@ -8,7 +8,6 @@ personal_data = {}
 
 option = int(input("What do you want to do? (1-3): "))
 
-
 if option == 1:
     fullname = input("Full Name: ").title()
     age = input("Age: ")
