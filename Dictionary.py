@@ -7,7 +7,7 @@ print("""      1 -----> Add an item
 personal_data = {}
 
 while True:
-    option = int(input("What do you want to do? (1-3): "))
+    option = int(input("\nWhat do you want to do? (1-3): "))
     if option == 1:
         fullname = input("Full Name: ").title()
         age = input("Age: ")
@@ -36,5 +36,8 @@ while True:
         if Exit == "n":
             continue
         else:
-            print("\nThank ")
+            print("\n----------Thank you for using the program----------")
             break
+    else:
+        print("\nInvalid input. \nExiting the program...")
+        break
