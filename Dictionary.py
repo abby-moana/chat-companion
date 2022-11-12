@@ -15,3 +15,13 @@ if option == 1:
     address = input("Address: ").title()
     number = input("Phone Number: ")
     print("Saved!")
+
+    personal_data[fullname] = {}
+    personal_data[fullname]["Full Name"] = fullname
+    personal_data[fullname]["Age"] = age
+    personal_data[fullname]["Gender"] = gender
+    personal_data[fullname]["Address"] = address
+    personal_data[fullname]["Phone Number"] = number
+
+    print(personal_data)
+
