@@ -22,3 +22,12 @@ while True:
             dictionary[user] = cc
 
         print("\nTalk with CC.")
+        while True:
+            user = input("You: ").title()
+            if user == "Exit":
+                break
+            if user in dictionary:
+                print("CC: ", dictionary[user])
+            else:
+                print("I'm sorry I haven't learned that one yet.")
+                continue
