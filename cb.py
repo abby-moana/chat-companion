@@ -31,3 +31,6 @@ while True:
             else:
                 print("I'm sorry I haven't learned that one yet.")
                 continue
+    else:
+        print("Too bad. Maybe you can teach me next time :D")
+        break
