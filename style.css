@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: url(sci.png);
+    outline: none;
+    box-sizing: border-box;
+}
+.quiz{
+    margin: 50px auto;
+    background-color: #138086;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.question-1{
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    color: #138086;
+}
+.question{
+    font-size: 25px;
+    color: #cff4d2;
+    border-bottom: solid 1px #cff4d2;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.quiz .option-box .option{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    color: #138086;
+    cursor: pointer;
+}
+.btn{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #cff4d2;
+    color:#138086;
+    cursor: pointer;
+    border-color: #ffffff;
+}
