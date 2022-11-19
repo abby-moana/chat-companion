@@ -14,5 +14,3 @@ while True:
         user = input("You: ")
         print("CC is happy that you are doing well, ", name, ".")
         print("\nTeach me anything. y/n")
-
-
